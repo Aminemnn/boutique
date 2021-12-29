@@ -1,0 +1,33 @@
+<div class="text">
+    <h1 class="text-info">MY<h1 class="text-dark">BOUTIQUE</h1></h1>
+    </div>
+    <br>
+    <hr>
+    
+    <form  [formGroup]="productAddForm" (ngSubmit)="onAjouter()" > 
+      <h1 class="text-info" id="text">Formulaire</h1>
+      <div class="col-md-6">
+        <div class="form-group">  <input id="nameConrole" type="text" name="name Product" class="form-control" placeholder="Please enter  Productname*"  required="required" data-error="nameProduct is required." formControlName="nameConrole" > </div>
+    </div>
+          
+          <div class="col-md-6">
+            <div class="form-group">  <input id="prixControl" type="number" name="price" class="form-control" placeholder="Please enter your price *" required="required" data-error="price is required." formControlName="prixControl"> </div>
+        </div>
+          
+          <div class="col-md-6">
+            <div class="form-group">  <input id="categorieControl" type="text" name="name Product" class="form-control" placeholder="Categorie*" required="required" data-error="nameProduct is required." formControlName="categorieControl" > </div>
+        </div> 
+          
+          <div class="mb-3"  >
+            <input class="form-control form-control-sm"   id="formFileSm" type="file">
+          </div>
+            <div class="col-md-6">
+                <div class="form-group"> <textarea id="form_message" name="message" class="form-control" placeholder="Write your Description here." rows="4" required="required" data-error="Please, leave us a Description." formControlName="descriptioncControl"></textarea> </div>
+            </div>
+         
+
+            <button type="submit"  class="btn btn-primary">Ajouter</button> 
+    </form>
+      
+      
+    

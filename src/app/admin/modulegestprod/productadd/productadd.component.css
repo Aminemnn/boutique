@@ -1,0 +1,39 @@
+form{
+    margin-top: 5%;
+}
+.form-control{
+    width: 50%;
+    margin-left: 25%;
+  border-radius: 25px;
+  height: 120%;
+
+}
+.text{
+    text-align: center;
+    margin-top: 33px;
+}
+
+.form-group{
+    
+    margin-top: 3%;
+    width: 205%;
+}
+
+.btn-primary{
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.text-info#text{
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+.form-control-sm{
+    width: 49,01%;
+}
+.col-md-6{
+    width: 50%;
+}
+
+
+
+

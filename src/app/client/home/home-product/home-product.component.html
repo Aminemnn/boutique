@@ -1,0 +1,50 @@
+<br><br>
+<div class="alert alert-info" role="alert">
+  
+</div>
+
+<br>
+<br>
+<h1 class="text-dark">MYBOUTIQUE.COM</h1>
+ 
+<hr>
+
+<h1 class="text-info">{{title}}</h1>
+<br>
+
+    <div class="row"> 
+      <h3 *ngFor="let produits of produits">
+    <div class="column">
+        <div class="content">
+          
+            <img [src]= "produits.image">
+            <br><br>
+          <p>{{produits.nom}} prix: {{produits.prix}}</p>
+          
+          <hr>
+          <button type="button" class="btn btn-primary" (click)="setProduits(produits)" ><a routerLink="/home/homeproddetail"><i class="fa fa-cart-plus">Achéter</i></a></button>
+          <br>
+          <button id="button2" type="button" class="btn btn-info" *ngIf="produits.description" (click)="onDetail(produits)">detail</button>
+        
+        </div>
+      
+      </div>
+      </h3>
+    </div>
+    <br>
+    <br>
+   
+
+   
+
+
+ 
+
+   
+    
+  
+
+
+
+
+ 

@@ -1,0 +1,38 @@
+form{
+    margin-top: 5%;
+}
+.form-control{
+    width: 50%;
+    margin-left: 25%;
+  border-radius: 25px;
+  height: 120%;
+  
+
+}
+.text{
+    text-align: center;
+    margin-top: 33px;
+}
+.form-control:hover{
+ border-bottom: 1px solid rgb(19, 211, 185) ;  
+}
+.form-group{
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.btn-primary{
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.text-info#text{
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+.form-control-sm{
+    width: 49,01%;
+}
+
+
+
+
