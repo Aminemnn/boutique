@@ -12,4 +12,9 @@ export const CATALOGUE : Produit [] = [
     { nom : 'Prod9' , prix : '100dt' , categID : 'C3' , image : "../../../assets/image10.jpg", description:"Tous Les Taille ",msg:''},
 
    ]; 
+   
+   export const Shows : Produit []= [
+    
+   ]
+    
   
